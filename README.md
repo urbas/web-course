@@ -10,3 +10,4 @@ If you don't have your own page from the last lesson, you can use this one: [les
 
 
 [Khan Academy's "Drawing with Code" lesson]: https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code
+[lesson2/profile-page.html]: ./lesson2/profile-page.html
