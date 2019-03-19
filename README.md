@@ -4,8 +4,7 @@
 Let's start with [Khan Academy's "Drawing with Code" lesson].
 
 Once we're finished with that, we'll dive into our project. We'll create a profile page for a random person.
-
-Open up [the online editor].
+Open [the online editor] to start creating the profile page.
 
 
 ## Lesson 2
