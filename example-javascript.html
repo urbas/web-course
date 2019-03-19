@@ -1,0 +1,47 @@
+<script>
+// Example 1: let's alert!
+alert("Hello World!");
+
+
+// Example 2: let's math!
+alert(3 + 7);
+
+
+// Example 3: let's prompt!
+yourName = prompt("What's your name?");
+alert("Hello " + yourName + "!");
+
+
+// Example 4: let's loop!
+keepGoing = "yes";
+while (keepGoing == "yes") {
+  keepGoing = prompt("Shall I keep going? (yes/no)");
+}
+
+
+// Example 5: let's sum!
+number1 = 784;
+number2 = 1668;
+answer = prompt(`How much is ${number1} + ${number2}?`);
+
+if (number1 + number2 == answer) {
+  alert(`You're correct, it's ${number1 + number2}!`);
+} else {
+  alert(`Nope, that's not right. Better luck next time!`);
+}
+
+
+// Example 6: let's sum game!
+number1 = 784;
+number2 = 1668;
+while (true) {
+  answer = prompt(`How much is ${number1} + ${number2}?`);
+
+  if (number1 + number2 == answer) {
+    alert(`You're correct, it's ${number1 + number2}!`);
+    break;
+  } else {
+    alert(`Nope, that's not right. Try again!`);
+  }
+}
+</script>
