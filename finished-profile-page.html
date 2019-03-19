@@ -1,0 +1,128 @@
+<style>
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-areas:
+      'photo expertise'
+      'photo skills';
+    grid-template-columns: 300px auto;
+  }
+
+  #photo {
+    width: 300px;
+    grid-area: photo;
+  }
+
+  #expertise {
+    grid-area: expertise;
+    border-left: 1px solid #bbbbbb;
+    padding: 20px;
+  }
+
+  #expertise-items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+  }
+
+  #skills {
+    grid-area: skills;
+    border-left: 1px solid #bbbbbb;
+    border-top: 1px solid #bbbbbb;
+    padding: 20px;
+  }
+
+  h2 {
+    color: #bbb;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  #listening-skill {
+    grid-template-columns: 30% auto;
+  }
+
+  #singing-skill {
+    grid-template-columns: 90% auto;
+  }
+
+  #sleeping-skill {
+    grid-template-columns: 95% auto;
+  }
+
+  .skill-bar {
+    display: grid;
+    height: 5px;
+  }
+
+  .skill-bar> :first-child {
+    background-color: coral;
+  }
+
+  .skill-bar> :last-child {
+    background-color: beige;
+  }
+</style>
+
+<div id="photo">
+  <img width="300px"
+    src="https://compote.slate.com/images/edc3c1ab-4a3d-4165-81ed-34dd60f910ce.jpeg?width=780&height=520&rect=4296x2864&offset=0x0" />
+
+  <h1>Random Person</h1>
+  <b>Web Developer</b>
+  <div>
+    Hi! I'm Person, Random Person. I like turtles. I also like zombie movies.
+    My hobbies are too numerous to list them all here,
+    but my favourite hobby is to play games. My favourite game is Pokemon Go, what's yours?
+  </div>
+</div>
+
+<div id="expertise">
+  <h2>Expertise</h2>
+
+  <div id="expertise-items">
+    <div>
+      <h3>Fast runner</h3>
+      I can definitely outrun a turtle. Oh, by the way, did I mention I like turtles?
+    </div>
+
+    <div>
+      <h3>Smart cookie</h3>
+      I can math like the best of them. I know the answer to 2+2! Can you beat that?
+    </div>
+
+    <div>
+      <h3>Zombie impersonator</h3>
+      Do you like zombies? If you like zombies, you'll love me. I can be the best zombie ever!
+    </div>
+  </div>
+</div>
+
+<div id="skills">
+  <h2>Skills</h2>
+
+  <h3>Listening (30%)</h3>
+  <div id="listening-skill" class="skill-bar">
+    <div></div>
+    <div></div>
+  </div>
+  I listen only to interesting people.
+
+
+  <h3>Singing (90%)</h3>
+  <div id="singing-skill" class="skill-bar">
+    <div></div>
+    <div></div>
+  </div>
+  I'm a rockstar!
+
+  <h3>Sleeping (95%)</h3>
+  <div id="sleeping-skill" class="skill-bar">
+    <div></div>
+    <div></div>
+  </div>
+  I can outsleep a log!
+</div>
