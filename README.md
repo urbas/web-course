@@ -13,6 +13,11 @@ We'll start where we finished in the last session.
 If you don't have your own page from the last lesson, you can use this one: [lesson2/profile-page.html]
 
 
+## Lesson 3
+Same as before, let's pick up where we finished last time. Use this code if you don't have your own: [lesson3/profile-page.html]
+
+
 [Khan Academy's "Drawing with Code" lesson]: https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code
 [lesson2/profile-page.html]: ./lesson2/profile-page.html
+[lesson3/profile-page.html]: ./lesson3/profile-page.html
 [the online editor]: https://www.w3schools.com/html/tryit.asp?filename=profile-page
