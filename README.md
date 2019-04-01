@@ -16,6 +16,9 @@ If you don't have your own page from the last lesson, you can use this one: [les
 ## Lesson 3
 Same as before, let's pick up where we finished last time. Use this code if you don't have your own: [lesson3/profile-page.html]
 
+## Lesson 4
+Let's finish off the math game. After that, just open [the online editor] and we'll start working on the "Click Me!" troll page.
+
 
 [Khan Academy's "Drawing with Code" lesson]: https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code
 [lesson2/profile-page.html]: ./lesson2/profile-page.html
